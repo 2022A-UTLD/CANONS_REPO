@@ -50,7 +50,6 @@
     </section>
     <!-- Termina el  HERO SECTION -->
 
-
    <!-- empieza el  section 1 -->
     <section id="section-1">
         <h2>Los 3 mejores juegos según la comunidad</h2>
@@ -80,7 +79,42 @@
     </section>
     <!-- termina el  section 1 -->
 
+<!-- Section 2 -->
+<section id="section2" class="section-2">
+    <h2 class="section-title">Section 2</h2>
+    <div class="card-container">
+        <div class="card" style="background-image: url('https://assets1.ignimgs.com/2019/09/07/blasphemous-thumbnail-blogroll-1567815897822.jpg');">
+            <div class="card-body">
+                <button class="btn btn-dark" onclick="growImage(this)">Button 1</button>
+            </div>
+        </div>
+        <div class="card" style="background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/capsule_616x353.jpg?t=1717124069');">
+            <div class="card-body">
+                <button class="btn btn-dark" onclick="growImage(this)">Button 2</button>
+            </div>
+        </div>
+        <div class="card" style="background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202009/2918/1UfdyQmXpeSdoFE104sNkLd4.png');">
+            <div class="card-body">
+                <button class="btn btn-dark" onclick="growImage(this)">Button 3</button>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<script>
+function growImage(button) {
+    const card = button.closest('.card');
+    card.style.backgroundSize = '120%'; // Hace que la imagen crezca
+    setTimeout(() => {
+        card.style.backgroundSize = 'cover'; // Vuelve al tamaño original después de 2 segundos
+    }, 2000);
+}
+</script>
+<!-- AQUÍ ACABA SECTION 2 -->
+
 <!-- AQUÍ EMPIEZA EL FOOTER -->
+
 <footer>
     <div class="footer-container">
         <!-- Navigation Links -->
