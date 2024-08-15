@@ -103,7 +103,7 @@ body, html {
             padding: 20px;
         }
         footer {
-            background-color: #333;
+            background-color: #000000;
             color: #fff;
             padding: 20px 0;
             text-align: center;
@@ -168,8 +168,9 @@ body, html {
         }
         
         h2 {
-            background-color: #FFCC00; /* Color de fondo amarillo */
+            background-color: #0421a0; /* Color de fondo amarillo */
             padding: 10px;
+            color:#ffff;
             margin: 0;
         }
         
