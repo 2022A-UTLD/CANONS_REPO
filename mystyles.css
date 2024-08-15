@@ -158,60 +158,6 @@ body, html {
             }
         }
 
-    
-/* Styles for Section 2 */
-.section-2 {
-    background-color: #f0f0f0; /* Cambiado a un gris ligero */
-    padding: 40px 20px;
-    margin-top: 20px;
-    border: 2px solid #8a8c8d;
-}
-
-.section-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    padding: 5px 10px;
-    background-color: #6c757d;
-    color: white;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.card {
-    width: 250px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    background-size: cover;
-    background-position: center;
-}
-
-.card-body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -266,3 +212,56 @@ body, html {
             color: #666;
         }
         
+
+       /* Styles for Section 2 */
+.section-2 {
+    background-color: #f0f0f0; /* Cambiado a un gris ligero */
+    padding: 40px 20px;
+    margin-top: 20px;
+    border: 2px solid #8a8c8d;
+}
+
+.section-2 .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.section-2 .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section-2 .card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-2 .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.section-2 .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
